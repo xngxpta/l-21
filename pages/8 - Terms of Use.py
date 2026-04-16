@@ -8,7 +8,7 @@ direc = os.getcwd()
 
 url_stripe = "https://buy.stripe.com/9B6bJ3gWS87G97b80q0480f"
 url_stripe_2 = "https://buy.stripe.com/6oUbJ35eaew4bfj0xY0480e"
-file0 = f'{direc}/appdata/Terms-of-Use.pdf' # Replace with your file name/path
+file0 = f'{direc}/pages/appdata/Terms-of-Use.pdf' # Replace with your file name/path
 st.sidebar.link_button("Join Us/day!", url_stripe, type="primary",
                         disabled=False, use_container_width="True")
 st.sidebar.link_button("Become a Patron!", url_stripe_2, type="primary",
