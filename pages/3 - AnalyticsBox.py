@@ -83,10 +83,8 @@ with mx2:
 #with x3:
 #    st.subheader("Day's Leading Performers")
 #    st.write(df_tg)
-#with x4:
-#    st.subheader("Day's Lagging Performers")
-#    st.write(df_tl)
-
+st.warning("Please Click the Access/Day @ INR 79/- to access the complete set of tools!!")
+st.stop()
 # Form and Inputs ############################################################
 
 
