@@ -54,7 +54,7 @@ st.write("  ---------------------------------------------------------------  ")
 st.title("Feedbacks, Contacts & Collaboration")
 c21, c22 = st.columns(2)
 with c21:
-    st.header("Drop in some wisdom here, please!", divider='rainbow')
+    st.header("Drop in wisdom here!", divider='rainbow')
     st.write("Please let us know about your experience and suggestions below:")
     with st.form('Feedback'):
         name = st.text_input("Your Name")
