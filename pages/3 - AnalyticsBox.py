@@ -35,8 +35,8 @@ st.set_page_config(page_title='Ledgr | Analytics', layout="wide",
 
 # st.title("Dashboard")
 
-url_stripe = "https://buy.stripe.com/9B6bJ3gWS87G97b80q0480f"
-url_stripe_2 = "https://buy.stripe.com/6oUbJ35eaew4bfj0xY0480e"
+# url_stripe = "https://buy.stripe.com/9B6bJ3gWS87G97b80q0480f"
+# url_stripe_2 = "https://buy.stripe.com/6oUbJ35eaew4bfj0xY0480e"
 pathtkr = f"{direc}/pages/appdata/tickerlist_y.csv"
 # Icons and Links ###########################
 ytube = f'{direc}/pages/appdata/imgs/ytube.svg'
@@ -66,7 +66,7 @@ with st.sidebar:
     st.image(logofile, use_container_width=True)
     st.caption("Your unified Fintelligence Portal!")
     st.write("Analyze Assets, Get tactical insights!")
-    st.link_button("Access Pro!", url_stripe, type="primary",
+    # st.link_button("Access Pro!", url_stripe, type="primary",
                    disabled=False, use_container_width="True")
 mx1, mx2 = st.columns(2)
 with mx1:
