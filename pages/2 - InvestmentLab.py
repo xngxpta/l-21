@@ -94,8 +94,7 @@ with bc1:
 with bc2:
     st.video("https://youtu.be/wu0nDaMyIG4?si=f7Y0v_I_Am7JwGe6")
 
-st.warning("Please Click the Access/Day @ INR 79/- to access the complete set of tools!!")
-st.stop()
+
 # ##################################################
 with st.form("pfinputs"):
     st.subheader("Inputs for Optimization & Allocation")
