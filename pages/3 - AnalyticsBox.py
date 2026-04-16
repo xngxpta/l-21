@@ -67,7 +67,7 @@ with st.sidebar:
     st.caption("Your unified Fintelligence Portal!")
     st.write("Analyze Assets, Get tactical insights!")
     # st.link_button("Access Pro!", url_stripe, type="primary",
-                   disabled=False, use_container_width="True")
+             #      disabled=False, use_container_width="True")
 mx1, mx2 = st.columns(2)
 with mx1:
     st.title(":AnalyticsBox:")
