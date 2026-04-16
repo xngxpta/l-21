@@ -82,8 +82,7 @@ with fc2:
     st.video('https://youtu.be/QVGy-AnBR4I?si=Y0gl5QwrR9AoE4ft')
 
 st.write("    -----------------------------------------------------------    ")
-st.warning("Please Click the Access/Day @ INR 79/- to access the complete set of tools!!")
-st.stop()
+
 # Functions & Cached Resources ######################################
 with st.form("user_inputs"):
     stock2 = st.selectbox("Please Select a Security Symbol", tickerlist)
