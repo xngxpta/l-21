@@ -91,6 +91,8 @@ with mx2:
 with st.form('inputs'):
     stock = st.selectbox("Please select stock ticker", tickerlist)
     submitted = st.form_submit_button("Proceed")
+    if not submitted: 
+        st.stop()
     if submitted:
         pass
 
